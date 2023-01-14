@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/midiaquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça o login pra acessar sua conta.</p>
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <i class="material-symbols-outlined">person</i>                       
+                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" size="17" required>
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <i class="material-symbols-outlined">key</i> 
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="sua senha" size="17" required minlength="8">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="#" class="botão">Esqueci minha senha</a>
+                </form>
+            </div>
+
+        </section>
+    </main>
+</body>
+</html>
