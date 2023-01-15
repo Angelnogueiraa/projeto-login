@@ -13,7 +13,9 @@ body,html {
 }
 
 main {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
 }
@@ -86,7 +88,7 @@ div.campo > i {
 }
 
 div.campo > input {
-    display: inline-block;
+
     background-color: #94cfcd;
     font-size: 1em;
     width: calc(100% - 44px);
@@ -95,6 +97,7 @@ div.campo > input {
     border-radius: 8px;
     padding: 4px;
     position: relative;
+    
     transform: translate(0.3%, -35%); 
 }
 
