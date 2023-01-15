@@ -60,6 +60,8 @@ div#formulario > p {
 }
 
 form > div.campo {
+    display: flex;
+    justify-content: flex-end;
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
     width: 100%;
@@ -96,9 +98,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    position: relative;
     
-    transform: translate(0.3%, -35%); 
 }
 
 div.campo > input:focus-within {
